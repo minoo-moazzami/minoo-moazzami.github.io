@@ -1,0 +1,28 @@
+baseURL = "https://minoo-moazzami.github.io/"
+languageCode = "en-us"
+title = "Minoo Moazzami - Academic Portfolio"
+theme = "drishtikon"
+disableKinds = ["RSS"]
+
+[params]
+  # Theme Colors
+  backgroundColor = "#3F91E8"  # Change this hex code to your preferred color
+  textColor = "#030C17"        # Color for regular text
+  linksColor = "#BFDAF8"       # Color for links
+  writingCardBackground = "#9209C8" # Background for the research project cards
+  # This section builds the left side of your homepage!
+  profilePhoto = "/profile.jpg"
+  profileDescription = """Hello! I am a graduate student at Sharif University of Technology majoring in Mathematics. My research interests are Mathematical Logic, Logic in Theoretical Computer Science, Proof Theory and Theorem Proving. I am currently seeking Master's and PhD research opportunities for Fall 2027."""
+  profileUpdates = "Index"
+  
+  # Social Icons (leave the quotes empty "" if you don't want a specific icon to appear)
+  github = "https://github.com/minoo-moazzami"
+  email = "mailto:minoumoazzami@gmail.com"
+  linkedin = "https://linkedin.com/in/minoo-moazzamijahromi-937748267"
+  cv = "/cv.pdf"
+  pinterest = ""
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
